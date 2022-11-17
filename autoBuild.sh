@@ -9,6 +9,7 @@ project_name="get-a-vet-frontend"
 
 cd /var/www/
 
+sudo rm -rf "/var/www/$project_name"
 sudo git clone "https://$user_name:$app_password@$repo_path"
 
 sudo apt install npm
