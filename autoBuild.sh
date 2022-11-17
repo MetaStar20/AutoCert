@@ -8,7 +8,8 @@ repo_path="bitbucket.org/z-idan/get-a-vet-frontend.git"
 project_name="get-a-vet-frontend"
 
 cd /var/www/
-# sudo git clone "https://$user_name:$app_password@$repo_path"
+
+sudo git clone "https://$user_name:$app_password@$repo_path"
 
 sudo apt install npm
 
